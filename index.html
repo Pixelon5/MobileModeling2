@@ -23,6 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="css/component1.css" />
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 
@@ -31,6 +32,15 @@
 <script type="text/javascript">
 	function groupe2(){
 		$('#content').load('./groupe2.html');
+	}
+	function groupe3(){
+		$('#content').load('./groupe3.html');
+	}
+	function groupe4(){
+		$('#content').load('./groupe4.html');
+	}
+	function groupe5(){
+		$('#content').load('./groupe5.html');
 	}
 </script>
 	<!-- HEADER -->
@@ -62,11 +72,12 @@
 					<button class="cn-button" id="cn-button">+</button>
 					<div class="cn-wrapper" id="cn-wrapper">
 						<ul>
-							<li><a href="#" onclick="groupe2()"><span class="icon-picture"></span></a></li>
-							<li><a href="#"><span class="icon-headphones"></span></a></li>
-							<li><a href="#"><span class="icon-home"></span></a></li>
-							<li><a href="#"><span class="icon-facetime-video"></span></a></li>
-							<li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+							<li><a href="#" onclick="home()"><i class="fa fa-home"></i></a></li>
+							<li><a href="#" onclick="groupe2()"><i class="fa fa-object-group"></i></a></li>
+							<li><a href="#" onclick="groupe3()"><i class="fa fa-desktop"></i></a></li>
+							<li><a href="#" onclick="groupe4()"><i class="fa fa-android"></i></a></li>
+							<li><a href="#" onclick="groupe5()"><i class="fa fa-android"></i>/<i class="fa fa-apple"></i></a></li>
+
 						</ul>
 					</div>
 					<div id="cn-overlay" class="cn-overlay"></div>
